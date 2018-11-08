@@ -1,0 +1,2 @@
+class TopMovies::Scraper
+end

@@ -1,5 +1,9 @@
-require "top_movies/version"
+require 'nokogiri'
+require 'pry'
+require 'open-uri'
 
-module TopMovies
-  # Your code goes here...
-end
+
+require_relative "./top_movies/version"
+require_relative './top_movies/cli'
+require_relative './top_movies/movie'
+require_relative './top_movies/scraper'
